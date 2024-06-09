@@ -30,7 +30,7 @@ function ToDoList() {
 
   return (
     <>
-        <div>
+        <div className='to-do-list'>
 
             <h1>Terry&#39;s To Do List</h1>
 
