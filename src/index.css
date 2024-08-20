@@ -26,10 +26,11 @@ h1{
   font-size: 4rem;
 }
 button{
+  font-family: Roboto, sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
-  padding: 10px 20px;
-  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  color: #e2e2e2;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -37,29 +38,32 @@ button{
 }
 .add-button{
   background-color: #03A65A;
-  margin-left: 10px;
+  margin-left: 0.75rem;
 }
 .add-button:hover{
   background-color: #016236;
+  transition: 2s;
 }
 .delete-button{
-  background-color: #D985A0;
+  background-color: #ba4067;
 }
 .delete-button:hover{
   background-color: #B9183A;
+  transition: 2s;
 }
 .move-button{
   background-color: #4B7BF5;
 }
 .move-button:hover{
   background-color: #0000FF;
+  transition: 2s;
 }
 input[type='text']{
   font-size: 1.6rem;
-  padding: 10px;
+  padding: 0.75rem;
   border: 2px solid #636363;
   border-radius: 8px;
-  color: #000000;
+  color: #060606;
 }
 ol{
   padding: 0;
@@ -67,9 +71,9 @@ ol{
 li{
   font-size: 2rem;
   font-weight: bold;
-  padding: 15px;
+  padding: 1rem;
   background-color: #f1f1f1;
-  margin-bottom: 10px;
+  margin-bottom: 0.75rem;
   border: 3px solid #7a7a7a;
   border-radius: 8px;
   display: flex;
@@ -79,7 +83,7 @@ li{
   flex: 1;
 }
 .delete-button, .move-button{
-  padding: 8px 12px;
+  padding: 0.5rem 0.8rem;
   font-size: 1.4rem;
-  margin-left: 10px;
+  margin-left: 0.75rem;
 }
